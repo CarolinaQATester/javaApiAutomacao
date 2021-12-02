@@ -11,11 +11,9 @@ repositories {
 }
 
 dependencies {
-    // This dependency is found on compile classpath of this component and consumers.
-    compile 'com.google.guava:guava:23.0'
 
     // Use JUnit test framework
-       testImplementation group: 'junit', name: 'junit', version: '4.13.2' 
+       testImplementation group: 'junit', name: 'junit', version: '4.+'
 }
 
 // Define the main class for the application
